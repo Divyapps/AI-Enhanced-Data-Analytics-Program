@@ -1,0 +1,95 @@
+# SQL & MySQL Workbench - Data Analyst Course
+
+## Overview
+This folder contains SQL queries, exercises, and projects using MySQL Workbench for data analysis and manipulation.
+
+## What is MySQL Workbench?
+MySQL Workbench is a unified visual tool for database architects, developers, and DBAs. It provides:
+- **Visual Database Design** - Create and modify database schemas
+- **SQL Development** - Write and execute SQL queries
+- **Database Administration** - Manage connections and server administration
+- **Data Migration** - Transfer data between databases
+- **Database Monitoring** - Monitor performance and connections
+
+## Topics Covered
+
+### 1. Basic SQL Queries
+- SELECT statements
+- WHERE clauses
+- ORDER BY and GROUP BY
+- DISTINCT and LIMIT
+- **File:** `01-basic-queries.sql`
+
+### 2. Data Filtering & Sorting
+- Comparison operators (=, !=, <, >, <=, >=)
+- Logical operators (AND, OR, NOT)
+- BETWEEN, IN, LIKE operators
+- NULL value handling
+- **File:** `02-filtering-sorting.sql`
+
+### 3. JOIN Operations
+- INNER JOIN - matching records from both tables
+- LEFT JOIN - all records from left table
+- RIGHT JOIN - all records from right table
+- FULL OUTER JOIN - all records from both tables
+- CROSS JOIN - cartesian product
+- **File:** `03-joins.sql`
+
+### 4. Aggregate Functions
+- COUNT() - count rows
+- SUM() - total of values
+- AVG() - average value
+- MIN() / MAX() - minimum/maximum values
+- GROUP BY - group results
+- HAVING - filter grouped data
+- **File:** `04-aggregation.sql`
+
+### 5. Subqueries & Advanced Queries
+- Subqueries in SELECT, FROM, WHERE
+- Correlated subqueries
+- EXISTS operator
+- UNION operator
+- **File:** `05-subqueries-advanced.sql`
+
+### 6. String Functions
+- CONCAT() - join strings
+- UPPER() / LOWER() - case conversion
+- SUBSTRING() - extract part of string
+- LENGTH() - string length
+- TRIM() - remove spaces
+- REPLACE() - replace text
+- **File:** `06-string-functions.sql`
+
+### 7. Date & Time Functions
+- CURDATE() / CURTIME() - current date/time
+- DATE_ADD() / DATE_SUB() - date arithmetic
+- DATEDIFF() - difference between dates
+- DATE_FORMAT() - format dates
+- YEAR() / MONTH() / DAY() - extract date parts
+- **File:** `07-date-functions.sql`
+
+### 8. Data Manipulation (DML)
+- INSERT - add new records
+- UPDATE - modify existing records
+- DELETE - remove records
+- REPLACE - insert or replace
+- **File:** `08-data-manipulation.sql`
+
+### 9. Database Design (DDL)
+- CREATE TABLE - create new table
+- ALTER TABLE - modify table structure
+- DROP TABLE - delete table
+- CREATE INDEX - improve query performance
+- CREATE VIEW - virtual tables
+- **File:** `09-database-design.sql`
+
+### 10. Real-World Projects
+- Customer Analysis
+- Sales Dashboard Queries
+- Inventory Management
+- Employee Analytics
+- **Folder:** `projects/`
+
+## How to Use These Files
+
+### 1. Open MySQL Workbench
